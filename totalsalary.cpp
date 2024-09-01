@@ -12,8 +12,6 @@ int main(){
     float totalDa = basicSalary * da / 100;
     float totalSalary = basicSalary + totalHra + totalDa - tax;
     printf("Total Salary of employee: %f", totalSalary);
-
-    printf("");
     
     return 0;
 }
